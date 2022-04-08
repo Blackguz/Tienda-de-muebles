@@ -12,6 +12,11 @@ a {
     color: black;
 }
 
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Header y navegación */
 .nombre-sitio {
     margin-top: 50px;
@@ -24,16 +29,18 @@ a {
 }
 
 .nav-principal{
-    border-top: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: space-between;
     padding: 20px 0;
 }
 
+.contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
+}
 
-/* Box Model */
-
-.sobre-nosotros {
-    background-color: red;
-    width: 200px;
-    padding: 20px;
-    box-sizing: border-box;
+.hero{
+    background-image: url('../img/principal.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
